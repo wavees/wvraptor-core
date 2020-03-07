@@ -4,7 +4,8 @@
   "description": "Backend for service named wvraptor",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node build.js"
   },
   "repository": {
     "type": "git",
