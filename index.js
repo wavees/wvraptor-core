@@ -81,6 +81,6 @@ helpers.walk("./routes", (error, files) => {
   });
 });
 
-const listener = http.listen(3000, function() {
+const listener = http.listen(process.env.PORT, function() {
   console.log("Application is listening on port " + listener.address().port);
 });
